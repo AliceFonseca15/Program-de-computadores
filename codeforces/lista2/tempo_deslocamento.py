@@ -1,0 +1,10 @@
+distancia = int(input())
+velocidade = int(input())
+hora = distancia // velocidade
+minutos = (distancia / velocidade) - hora
+a = minutos * 60
+b = a // 1
+b1 = int(b)
+h = "{:02d}".format(hora)
+m = "{:02d}".format(b1)
+print(h,m, sep = ":")
