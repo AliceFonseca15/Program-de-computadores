@@ -7,11 +7,10 @@ soma = sum(list)
 media = soma // mediçoes
 print(media)
 
-media_acima = media + (media * 10) // 100
-print(media_acima)
-media_abaixo = media - (media * 10) // 100
-print(media_abaixo)
-
+media_acima = media + (media * 10) / 100
+media_abaixo = media - (media * 10) / 100
+media_acima = int(media_acima)
+media_abaixo = int(media_abaixo)
 
 quantidade = 0
 for i in range(0,len(list)):
@@ -20,4 +19,5 @@ for i in range(0,len(list)):
     else:
         if list[i] < media_abaixo:
             quantidade = quantidade + 1
+
 print(quantidade)
