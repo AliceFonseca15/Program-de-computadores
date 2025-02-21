@@ -5,7 +5,6 @@ for i in range(tamanhos):
     quantidades.append(quant)
 
 
-
 pedidos = int(input())
 tam = []
 for i in range(pedidos):

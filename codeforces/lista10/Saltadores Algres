@@ -1,0 +1,25 @@
+
+while True:
+    lista = list(map(str,input().split()))
+
+    lista2 = []
+    lista_aprov = []
+    if lista[0] == str("EOF")
+        break
+    else:
+        for i in range(len(lista)):
+            valor = lista[i] - lista[i + 1]
+            lista2.append(abs(valor))
+
+        for j in range(len(lista2)):
+            valor = lista2[j] + 1
+            valor2 = lista2[j] - 1
+            if lista2[j] + 1 == valor or lista2[j] - 1 == valor2:
+                lista_aprov.append(0)
+            else:
+                lista_aprov.append(1)
+
+if sum(lista_aprov) > 0:
+    print("não alegre") 
+else:
+    print("Alegre")     
