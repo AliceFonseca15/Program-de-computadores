@@ -1,12 +1,11 @@
 
 while True:
     lista = list(map(str,input().split()))
-    
     lista2 = []
     lista_aprov = []
     if lista[0] == str("EOF"):
         break
-    else:
+    else:3
         nova_lista = int(lista)
         for i in range(len(lista)):
             valor = lista[i] - lista[i + 1]
@@ -24,4 +23,4 @@ if sum(lista_aprov) > 0:
     print("não alegre") 
 else:
     print("Alegre")
-         
+
