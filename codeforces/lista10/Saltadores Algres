@@ -5,7 +5,7 @@ while True:
     lista_aprov = []
     if lista[0] == str("EOF"):
         break
-    else:3
+    else:
         nova_lista = int(lista)
         for i in range(len(lista)):
             valor = lista[i] - lista[i + 1]
