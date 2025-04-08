@@ -1,2 +1,2 @@
-# Exercicíos de programação
- Python
+# Programação de computadores
+ Repositório da disciplina de Programação de computadores - primeiro semestre
