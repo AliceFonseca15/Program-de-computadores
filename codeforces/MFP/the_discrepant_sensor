@@ -1,0 +1,11 @@
+casos = int(input())
+
+for i in range(casos):
+    d1,d2,d3 = map(int,input().split())
+    if d1 == d2:
+        print(d3)
+    elif d2 == d3:
+        print(d1)
+    elif d1 == d3:
+        print(d2)
+         
