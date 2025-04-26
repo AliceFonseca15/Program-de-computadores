@@ -1,0 +1,12 @@
+palavra = input()
+separa_palavra = list(palavra)
+primeiro_nome = []
+segundo_nome = []
+for i in range(len(separa_palavra)):
+    if i % 2 == 0:
+        primeiro_nome.append(separa_palavra[i])
+    else:
+        segundo_nome.append(separa_palavra[i])
+
+print(*primeiro_nome,sep="")
+print(*segundo_nome,sep ="")
