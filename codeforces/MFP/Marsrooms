@@ -1,0 +1,18 @@
+c1, c2 = map(int,input().split())
+c3, c4 = map(int,input().split())
+c5, c6 = map(int,input().split())
+c7, c8 = map(int,input().split())
+
+
+lista_y = [c2,c4,c6,c8]
+y_maior = max(lista_y)
+y_menor = min(lista_y)
+
+if y_menor < 0:
+    y_menor = abs(y_menor)
+    valor = y_menor + y_maior
+else:
+    valor = y_maior - y_menor
+
+result = valor * valor    
+print(result)
