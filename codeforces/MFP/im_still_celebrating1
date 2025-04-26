@@ -1,0 +1,13 @@
+minuto, amplitude = map(int,input().split())
+valores = list(map(int,input().split()))
+     
+v_amplitude = list(range(1,amplitude + 1))
+resultado = []
+for i in range(0,len(v_amplitude)): 
+    soma = 0
+    for j in range(0,len(valores)):
+        if v_amplitude[i] <= valores[j]:
+            soma += 1
+    resultado.append(soma)
+     
+print(*resultado)
